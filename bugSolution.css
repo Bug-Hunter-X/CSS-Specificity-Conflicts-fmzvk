@@ -1,0 +1,25 @@
+/* bug.css */
+p {
+  color: blue;
+}
+
+div p {
+  color: red; /* This overrides the general p selector */
+}
+
+/* bugSolution.css */
+p {
+  color: blue;
+}
+
+div p {
+  color: red !important; /* Using !important; use with caution */
+}
+/*or*/
+.special-paragraph {
+  color:blue; 
+}
+
+div .special-paragraph {
+  color:red; 
+}
