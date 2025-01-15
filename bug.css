@@ -1,0 +1,1 @@
+The CSS specificity rules can lead to unexpected styling behavior when multiple selectors target the same element. For instance, a more specific selector might override a less specific one, even if it appears later in the stylesheet. This can be challenging to debug, especially in large projects.
